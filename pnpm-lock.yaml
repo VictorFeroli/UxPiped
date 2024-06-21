@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      lucide-svelte:
+        specifier: ^0.395.0
+        version: 0.395.0(svelte@5.0.0-next.162)
     devDependencies:
       '@melt-ui/pp':
         specifier: ^0.3.2
@@ -1002,6 +1006,11 @@ packages:
   lru-cache@10.2.2:
     resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
+
+  lucide-svelte@0.395.0:
+    resolution: {integrity: sha512-gl4HIIGUyj3seZf/CQ6vG38oMnNmdO1lcBQaMsB5pFpnL1T13qlfqjMjfTCnsKMFjiIFr3LttE/LFVi/GXmV0A==}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5.0.0-next.42
 
   magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
@@ -2484,6 +2493,10 @@ snapshots:
   lodash.merge@4.6.2: {}
 
   lru-cache@10.2.2: {}
+
+  lucide-svelte@0.395.0(svelte@5.0.0-next.162):
+    dependencies:
+      svelte: 5.0.0-next.162
 
   magic-string@0.30.10:
     dependencies:
